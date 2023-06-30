@@ -25,3 +25,24 @@ func twoSum(nums []int, target int) []int {
 }
 
 // its the optimized code
+
+//func twoSum(nums []int, target int) []int {
+//	arr := []int{}
+//first:
+//	for index,value := range nums {
+//		compliment := target - value
+//		for index2,value2 := range nums{
+//			if index != index2{
+//				if value2 == compliment{
+//					arr = append(arr,index)
+//					arr = append(arr,index2)
+//					break first
+//				}
+//			}
+//		}
+//	}
+//
+//	return arr
+//}
+
+//not optimized code
