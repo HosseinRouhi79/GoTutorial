@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 
@@ -14,6 +17,7 @@ func main() {
 		"215479965": "Reza",
 	}
 	fmt.Println(myMap2)
+	fmt.Println(reflect.TypeOf(myMap2))
 	myMap2["215479965"] = "Mahtab" //update element
 	fmt.Println(myMap2)
 
